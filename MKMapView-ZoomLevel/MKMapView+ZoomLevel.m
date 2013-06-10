@@ -12,7 +12,7 @@
 #define MERCATOR_OFFSET 268435456         /* (total pixels at zoom level 20) / 2 */
 #define MERCATOR_RADIUS 85445659.44705395 /* MERCATOR_OFFSET / pi */
 // x = round(MERCATOR_OFFSET + MERCATOR_RADIUS * longitude * M_PI / 180.0);
-// y = round(MERCATOR_OFFSET - MERCATOR_RADIUS * logf((1 + sinf(latitude * M_PI / 180.0)) 
+// y = round(MERCATOR_OFFSET - MERCATOR_RADIUS * logf((1 + sinf(latitude * M_PI / 180.0))
 //     / (1 - sinf(latitude * M_PI / 180.0))) / 2.0);
 
 @implementation MKMapView (ZoomLevel)
