@@ -18,4 +18,9 @@
                                     andZoomLevel:(NSUInteger)zoomLevel;
 - (NSUInteger)zoomLevel;
 
++ (double)originXForLongitude:(double)longitude;
++ (double)originYForLatitude:(double)latitude;
++ (double)longitudeForOriginX:(double)originX;
++ (double)latitudeForOriginY:(double)originY;
+
 @end
