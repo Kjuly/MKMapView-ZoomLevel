@@ -42,6 +42,17 @@
   return (M_PI / 2.0 - 2.0 * atan(exp((round(originY) - MERCATOR_OFFSET) / MERCATOR_RADIUS))) * 180.0 / M_PI;
 }
 
++ (double)realWorldDistanceOfMapView:(MKMapView *)mapView
+{
+  // http://stackoverflow.com/questions/3024404/transform-longitude-latitude-into-meters
+  //CLLocationDegrees deltaLatitude = self.mapView.region.span.latitudeDelta;
+  CLLocationDegrees deltaLongitude = mapView.region.span.longitudeDelta;
+  CGFloat latitudeCircumference = 40075160 * cos(mapView.region.center.latitude * M_PI / 180.f);
+  //NSLog(@"x: %f; y: %f", deltaLongitude * latitudeCircumference / 360, deltaLatitude * 40008000 / 360);
+  
+  return round(deltaLongitude * latitudeCircumference / 360.f);
+}
+
 #pragma mark -
 #pragma mark Helper methods
 
@@ -99,10 +110,11 @@
   [self setRegion:region animated:animated];
 }
 
-//KMapView cannot display tiles that cross the pole (as these would involve wrapping the map from top to bottom, something that a Mercator projection just cannot do).
--(MKCoordinateRegion)coordinateRegionWithMapView:(MKMapView *)mapView
-                                centerCoordinate:(CLLocationCoordinate2D)centerCoordinate
-                                    andZoomLevel:(NSUInteger)zoomLevel {
+// MKMapView cannot display tiles that cross the pole (as these would involve wrapping
+//   the map from top to bottom, something that a Mercator projection just cannot do).
+- (MKCoordinateRegion)coordinateRegionWithMapView:(MKMapView *)mapView
+                                 centerCoordinate:(CLLocationCoordinate2D)centerCoordinate
+                                     andZoomLevel:(NSUInteger)zoomLevel {
 	// clamp lat/long values to appropriate ranges
 	centerCoordinate.latitude = MIN(MAX(-90.0, centerCoordinate.latitude), 90.0);
 	centerCoordinate.longitude = fmod(centerCoordinate.longitude, 180.0);

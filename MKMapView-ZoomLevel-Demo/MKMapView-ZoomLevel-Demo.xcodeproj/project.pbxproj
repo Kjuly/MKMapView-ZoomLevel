@@ -482,6 +482,7 @@
 				7F7344131772B4D5000C4530 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F7344141772B4D5000C4530 /* Build configuration list for PBXNativeTarget "MKMapView-ZoomLevel-DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +491,7 @@
 				7F7344161772B4D5000C4530 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
