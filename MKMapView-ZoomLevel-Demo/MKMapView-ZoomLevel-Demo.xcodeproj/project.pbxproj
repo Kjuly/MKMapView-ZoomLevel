@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F7343E31772B4D4000C4530 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7343E21772B4D4000C4530 /* UIKit.framework */; };
+		7F7343E51772B4D4000C4530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7343E41772B4D4000C4530 /* Foundation.framework */; };
+		7F7343E71772B4D4000C4530 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7343E61772B4D4000C4530 /* CoreGraphics.framework */; };
+		7F7343ED1772B4D5000C4530 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F7343EB1772B4D5000C4530 /* InfoPlist.strings */; };
+		7F7343EF1772B4D5000C4530 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7343EE1772B4D5000C4530 /* main.m */; };
+		7F7343F31772B4D5000C4530 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7343F21772B4D5000C4530 /* AppDelegate.m */; };
+		7F7343F51772B4D5000C4530 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7343F41772B4D5000C4530 /* Default.png */; };
+		7F7343F71772B4D5000C4530 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7343F61772B4D5000C4530 /* Default@2x.png */; };
+		7F7343F91772B4D5000C4530 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7343F81772B4D5000C4530 /* Default-568h@2x.png */; };
+		7F7344011772B4D5000C4530 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7344001772B4D5000C4530 /* SenTestingKit.framework */; };
+		7F7344021772B4D5000C4530 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7343E21772B4D4000C4530 /* UIKit.framework */; };
+		7F7344031772B4D5000C4530 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7343E41772B4D4000C4530 /* Foundation.framework */; };
+		7F73440B1772B4D5000C4530 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F7344091772B4D5000C4530 /* InfoPlist.strings */; };
+		7F73440E1772B4D5000C4530 /* MKMapView_ZoomLevel_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F73440D1772B4D5000C4530 /* MKMapView_ZoomLevel_DemoTests.m */; };
+		7F7344191772B511000C4530 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7344181772B511000C4530 /* Constants.m */; };
+		7F73441D1772B548000C4530 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F73441C1772B548000C4530 /* RootViewController.m */; };
+		7F73441F1772B68D000C4530 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F73441E1772B68D000C4530 /* MapKit.framework */; };
+		7F7344231772B700000C4530 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7344221772B700000C4530 /* MKMapView+ZoomLevel.m */; };
+		7F7344251772B9F9000C4530 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F7344241772B9F9000C4530 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F7344041772B4D5000C4530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F7343D71772B4D4000C4530 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F7343DE1772B4D4000C4530;
+			remoteInfo = "MKMapView-ZoomLevel-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F7343DF1772B4D4000C4530 /* MKMapView-ZoomLevel-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MKMapView-ZoomLevel-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7343E21772B4D4000C4530 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F7343E41772B4D4000C4530 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F7343E61772B4D4000C4530 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F7343EA1772B4D5000C4530 /* MKMapView-ZoomLevel-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKMapView-ZoomLevel-Demo-Info.plist"; sourceTree = "<group>"; };
+		7F7343EC1772B4D5000C4530 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F7343EE1772B4D5000C4530 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F7343F01772B4D5000C4530 /* MKMapView-ZoomLevel-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKMapView-ZoomLevel-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		7F7343F11772B4D5000C4530 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F7343F21772B4D5000C4530 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F7343F41772B4D5000C4530 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7F7343F61772B4D5000C4530 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7F7343F81772B4D5000C4530 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7F7343FF1772B4D5000C4530 /* MKMapView-ZoomLevel-DemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MKMapView-ZoomLevel-DemoTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F7344001772B4D5000C4530 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F7344081772B4D5000C4530 /* MKMapView-ZoomLevel-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKMapView-ZoomLevel-DemoTests-Info.plist"; sourceTree = "<group>"; };
+		7F73440A1772B4D5000C4530 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F73440C1772B4D5000C4530 /* MKMapView_ZoomLevel_DemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKMapView_ZoomLevel_DemoTests.h; sourceTree = "<group>"; };
+		7F73440D1772B4D5000C4530 /* MKMapView_ZoomLevel_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKMapView_ZoomLevel_DemoTests.m; sourceTree = "<group>"; };
+		7F7344171772B511000C4530 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		7F7344181772B511000C4530 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		7F73441B1772B548000C4530 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7F73441C1772B548000C4530 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7F73441E1772B68D000C4530 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7F7344211772B700000C4530 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		7F7344221772B700000C4530 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		7F7344241772B9F9000C4530 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F7343DC1772B4D4000C4530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7344251772B9F9000C4530 /* CoreLocation.framework in Frameworks */,
+				7F73441F1772B68D000C4530 /* MapKit.framework in Frameworks */,
+				7F7343E31772B4D4000C4530 /* UIKit.framework in Frameworks */,
+				7F7343E51772B4D4000C4530 /* Foundation.framework in Frameworks */,
+				7F7343E71772B4D4000C4530 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7343FB1772B4D5000C4530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7344011772B4D5000C4530 /* SenTestingKit.framework in Frameworks */,
+				7F7344021772B4D5000C4530 /* UIKit.framework in Frameworks */,
+				7F7344031772B4D5000C4530 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F7343D61772B4D4000C4530 = {
+			isa = PBXGroup;
+			children = (
+				7F7344201772B700000C4530 /* MKMapView-ZoomLevel */,
+				7F7343E81772B4D5000C4530 /* MKMapView-ZoomLevel-Demo */,
+				7F7344061772B4D5000C4530 /* MKMapView-ZoomLevel-DemoTests */,
+				7F7343E11772B4D4000C4530 /* Frameworks */,
+				7F7343E01772B4D4000C4530 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F7343E01772B4D4000C4530 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F7343DF1772B4D4000C4530 /* MKMapView-ZoomLevel-Demo.app */,
+				7F7343FF1772B4D5000C4530 /* MKMapView-ZoomLevel-DemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F7343E11772B4D4000C4530 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F7344241772B9F9000C4530 /* CoreLocation.framework */,
+				7F73441E1772B68D000C4530 /* MapKit.framework */,
+				7F7343E21772B4D4000C4530 /* UIKit.framework */,
+				7F7343E41772B4D4000C4530 /* Foundation.framework */,
+				7F7343E61772B4D4000C4530 /* CoreGraphics.framework */,
+				7F7344001772B4D5000C4530 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F7343E81772B4D5000C4530 /* MKMapView-ZoomLevel-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				7F7343F11772B4D5000C4530 /* AppDelegate.h */,
+				7F7343F21772B4D5000C4530 /* AppDelegate.m */,
+				7F7344171772B511000C4530 /* Constants.h */,
+				7F7344181772B511000C4530 /* Constants.m */,
+				7F73441A1772B53C000C4530 /* Controllers */,
+				7F7343E91772B4D5000C4530 /* Supporting Files */,
+			);
+			path = "MKMapView-ZoomLevel-Demo";
+			sourceTree = "<group>";
+		};
+		7F7343E91772B4D5000C4530 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F7343EA1772B4D5000C4530 /* MKMapView-ZoomLevel-Demo-Info.plist */,
+				7F7343EB1772B4D5000C4530 /* InfoPlist.strings */,
+				7F7343EE1772B4D5000C4530 /* main.m */,
+				7F7343F01772B4D5000C4530 /* MKMapView-ZoomLevel-Demo-Prefix.pch */,
+				7F7343F41772B4D5000C4530 /* Default.png */,
+				7F7343F61772B4D5000C4530 /* Default@2x.png */,
+				7F7343F81772B4D5000C4530 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F7344061772B4D5000C4530 /* MKMapView-ZoomLevel-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F73440C1772B4D5000C4530 /* MKMapView_ZoomLevel_DemoTests.h */,
+				7F73440D1772B4D5000C4530 /* MKMapView_ZoomLevel_DemoTests.m */,
+				7F7344071772B4D5000C4530 /* Supporting Files */,
+			);
+			path = "MKMapView-ZoomLevel-DemoTests";
+			sourceTree = "<group>";
+		};
+		7F7344071772B4D5000C4530 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F7344081772B4D5000C4530 /* MKMapView-ZoomLevel-DemoTests-Info.plist */,
+				7F7344091772B4D5000C4530 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F73441A1772B53C000C4530 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7F73441B1772B548000C4530 /* RootViewController.h */,
+				7F73441C1772B548000C4530 /* RootViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7F7344201772B700000C4530 /* MKMapView-ZoomLevel */ = {
+			isa = PBXGroup;
+			children = (
+				7F7344211772B700000C4530 /* MKMapView+ZoomLevel.h */,
+				7F7344221772B700000C4530 /* MKMapView+ZoomLevel.m */,
+			);
+			name = "MKMapView-ZoomLevel";
+			path = "../MKMapView-ZoomLevel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F7343DE1772B4D4000C4530 /* MKMapView-ZoomLevel-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F7344111772B4D5000C4530 /* Build configuration list for PBXNativeTarget "MKMapView-ZoomLevel-Demo" */;
+			buildPhases = (
+				7F7343DB1772B4D4000C4530 /* Sources */,
+				7F7343DC1772B4D4000C4530 /* Frameworks */,
+				7F7343DD1772B4D4000C4530 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MKMapView-ZoomLevel-Demo";
+			productName = "MKMapView-ZoomLevel-Demo";
+			productReference = 7F7343DF1772B4D4000C4530 /* MKMapView-ZoomLevel-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F7343FE1772B4D5000C4530 /* MKMapView-ZoomLevel-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F7344141772B4D5000C4530 /* Build configuration list for PBXNativeTarget "MKMapView-ZoomLevel-DemoTests" */;
+			buildPhases = (
+				7F7343FA1772B4D5000C4530 /* Sources */,
+				7F7343FB1772B4D5000C4530 /* Frameworks */,
+				7F7343FC1772B4D5000C4530 /* Resources */,
+				7F7343FD1772B4D5000C4530 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F7344051772B4D5000C4530 /* PBXTargetDependency */,
+			);
+			name = "MKMapView-ZoomLevel-DemoTests";
+			productName = "MKMapView-ZoomLevel-DemoTests";
+			productReference = 7F7343FF1772B4D5000C4530 /* MKMapView-ZoomLevel-DemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F7343D71772B4D4000C4530 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Kjuly;
+			};
+			buildConfigurationList = 7F7343DA1772B4D4000C4530 /* Build configuration list for PBXProject "MKMapView-ZoomLevel-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F7343D61772B4D4000C4530;
+			productRefGroup = 7F7343E01772B4D4000C4530 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F7343DE1772B4D4000C4530 /* MKMapView-ZoomLevel-Demo */,
+				7F7343FE1772B4D5000C4530 /* MKMapView-ZoomLevel-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F7343DD1772B4D4000C4530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7343ED1772B4D5000C4530 /* InfoPlist.strings in Resources */,
+				7F7343F51772B4D5000C4530 /* Default.png in Resources */,
+				7F7343F71772B4D5000C4530 /* Default@2x.png in Resources */,
+				7F7343F91772B4D5000C4530 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7343FC1772B4D5000C4530 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F73440B1772B4D5000C4530 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F7343FD1772B4D5000C4530 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F7343DB1772B4D4000C4530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7343EF1772B4D5000C4530 /* main.m in Sources */,
+				7F7343F31772B4D5000C4530 /* AppDelegate.m in Sources */,
+				7F7344191772B511000C4530 /* Constants.m in Sources */,
+				7F73441D1772B548000C4530 /* RootViewController.m in Sources */,
+				7F7344231772B700000C4530 /* MKMapView+ZoomLevel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F7343FA1772B4D5000C4530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F73440E1772B4D5000C4530 /* MKMapView_ZoomLevel_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F7344051772B4D5000C4530 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F7343DE1772B4D4000C4530 /* MKMapView-ZoomLevel-Demo */;
+			targetProxy = 7F7344041772B4D5000C4530 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F7343EB1772B4D5000C4530 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F7343EC1772B4D5000C4530 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F7344091772B4D5000C4530 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F73440A1772B4D5000C4530 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F73440F1772B4D5000C4530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F7344101772B4D5000C4530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F7344121772B4D5000C4530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKMapView-ZoomLevel-Demo/MKMapView-ZoomLevel-Demo-Prefix.pch";
+				INFOPLIST_FILE = "MKMapView-ZoomLevel-Demo/MKMapView-ZoomLevel-Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F7344131772B4D5000C4530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKMapView-ZoomLevel-Demo/MKMapView-ZoomLevel-Demo-Prefix.pch";
+				INFOPLIST_FILE = "MKMapView-ZoomLevel-Demo/MKMapView-ZoomLevel-Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7F7344151772B4D5000C4530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MKMapView-ZoomLevel-Demo.app/MKMapView-ZoomLevel-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKMapView-ZoomLevel-Demo/MKMapView-ZoomLevel-Demo-Prefix.pch";
+				INFOPLIST_FILE = "MKMapView-ZoomLevel-DemoTests/MKMapView-ZoomLevel-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7F7344161772B4D5000C4530 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MKMapView-ZoomLevel-Demo.app/MKMapView-ZoomLevel-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKMapView-ZoomLevel-Demo/MKMapView-ZoomLevel-Demo-Prefix.pch";
+				INFOPLIST_FILE = "MKMapView-ZoomLevel-DemoTests/MKMapView-ZoomLevel-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F7343DA1772B4D4000C4530 /* Build configuration list for PBXProject "MKMapView-ZoomLevel-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F73440F1772B4D5000C4530 /* Debug */,
+				7F7344101772B4D5000C4530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F7344111772B4D5000C4530 /* Build configuration list for PBXNativeTarget "MKMapView-ZoomLevel-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F7344121772B4D5000C4530 /* Debug */,
+				7F7344131772B4D5000C4530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F7344141772B4D5000C4530 /* Build configuration list for PBXNativeTarget "MKMapView-ZoomLevel-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F7344151772B4D5000C4530 /* Debug */,
+				7F7344161772B4D5000C4530 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F7343D71772B4D4000C4530 /* Project object */;
+}
