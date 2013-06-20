@@ -1,6 +1,10 @@
+# Mac OS
+*.DS_Store
+*~
+.*.sw[po]
+
 # Xcode
-.DS_Store
-build/
+build/*
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -14,5 +18,6 @@ build/
 xcuserdata
 profile
 *.moved-aside
-DerivedData
-.idea/
+
+*~.xib
+*~.nib
